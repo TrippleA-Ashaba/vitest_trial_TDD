@@ -14,4 +14,7 @@ describe("Testing Factorial function", () => {
 	test("Factorial of 1 is 1", () => {
 		assert.equal(facto(1), 1);
 	});
+	test("Factorial of 2 is 2", () => {
+		assert.equal(facto(2), 2);
+	});
 });
